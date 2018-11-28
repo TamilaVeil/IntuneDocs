@@ -181,6 +181,8 @@ See [Health Attestation CSP](https://docs.microsoft.com/windows/client-managemen
 
 - **Antivirus**: When set to **Require**, you can check compliance using antivirus solutions that are registered with Windows Security Center, such as Symantec and Windows Defender. When **Not configured**, Intune doesn't check for any AV solutions installed on the device.
 - **AntiSpyware**: When set to **Require**, you can check compliance using antispyware solutions that are registered with Windows Security Center, such as Symantec and Windows Defender. When **Not configured**, Intune doesn't check for any antispyware solutions installed on the device.
+> [!Note]
+> When using third party Antivirus software that has not passed the Windows Security Certification, the integration with Intune is inconsistent and may produce errors in reporting.
 
 ### Windows Defender ATP
 
